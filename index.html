@@ -19,14 +19,11 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-            <label class="burger" for="burger">
-                <input type="checkbox" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
     <div class="main-content">
@@ -69,31 +66,31 @@
                     <div class="skill-bar">
                         <span>Php & Mysql database (85%)</span>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 85%;"></div>
+                            <div class="progress" per="85%" style="width: 85%;"></div>
                         </div>
                     </div>
                     <div class="skill-bar">
                         <span>WordPress (90%)</span>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
+                            <div class="progress" per="90%"  style="width: 90%;"></div>
                         </div>
                     </div>
                     <div class="skill-bar">
                         <span>Flutter / React (75%)</span>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 75%;"></div>
+                            <div class="progress" per="75%" style="width: 75%;"></div>
                         </div>
                     </div>
                     <div class="skill-bar">
                         <span>Adobe Products (80%)</span>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 80%;"></div>
+                            <div class="progress" per="80%" style="width: 80%;"></div>
                         </div>
                     </div>
                     <div class="skill-bar">
                         <span>Digital Marketing & SEO (90%)</span>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 90%;"></div>
+                            <div class="progress" per="90%" style="width: 90%;"></div>
                         </div>
                     </div>
         </div>
@@ -108,25 +105,34 @@
                     <i class="fas fa-desktop"></i>
                     <h2>Web Development</h2>
                     <p>A website is a central tool for the visibility of a business on the Internet. Dynamic Developers offer the best quality websites.</p>
-                    <button>Order Now</button>
+                    <div class="service-button">
+                        <br>
+                        <button>Order Now</button>
+                       </div>
                 </div>
                 <div class="service">
                     <i class="fas fa-mobile-alt"></i>
                     <h2>App Development</h2>
                     <p>A dedicated application makes it possible to improve the visibility of brands and to improve your company's business processes.</p>
-                    <button>Order Now</button>
+                    <div class="service-button">
+                        <button>Order Now</button>
+                       </div>
                 </div>
                 <div class="service">
                     <i class="fas fa-paint-brush"></i>
                     <h2>Graphic Designing</h2>
                     <p>Graphic designing is an identity that generates results that exceed expectations. For this, we will offer you the best quality creations.</p>
-                    <button>Order Now</button>
+                    <div class="service-button">
+                        <button>Order Now</button>
+                       </div>
                 </div>
                 <div class="service">
                     <i class="fas fa-chart-line"></i>
                     <h2>Digital Marketing</h2>
                     <p>The world is currently online, as a brand or company in order to reach more customers as possible with digital marketing.</p>
+                   <div class="service-button">
                     <button>Order Now</button>
+                   </div>
                 </div>
             </div>
         </div>
@@ -202,11 +208,11 @@
             <button type="submit">Send Message</button>
           </form>
           <div class="contact-info">
-            <p>Address: <i class="fas fa-location-dot"></i>9 Canal Road, Rahim Yar Khan, Pakistan</p>
-            <p>Phone: <i class="fas fa-phone"></i>+92 309 3952963</p>
-            <p>Email: <i class="fas fa-envelope"></i>info@dynamicdevelopers.com.pk</p>
+            <p> <b>Adress:</b> <i class="fas fa-location-dot" style="margin-left: 7px;"></i>9 Canal Road, Rahim Yar Khan, Pakistan</p>
+            <p> <b>Phone: </b><i class="fas fa-phone"></i>+92 309 3952963</p>
+            <p> <b>E-mail:</b> <i class="fas fa-envelope"></i>info@dynamicdevelopers.com.pk</p>
             <div class="social-media">
-              <p>Get Social:
+              <p>  <b>Get Social:</b>
               <i class="fab fa-facebook-f"></i>
               <i class="fab fa-twitter"></i>
               <i class="fab fa-youtube"></i>
@@ -214,7 +220,7 @@
               <i class="fab fa-linkedin-in"></i></p>
             </div>
             <div class="subscribe">
-              <p>Subscribe:</p>
+              <p> <b>Subscribe:</b></p>
               <input class="mail" type="email" placeholder="Your email here">
               <button type="submit">Submit</button>
             </div>
